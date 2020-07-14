@@ -1,1 +1,13 @@
-$lightGrey: #f3f3f3;
+@import "./styles/variables.scss";
+
+.container {
+  background-color: #fff;
+  padding: $verticalPadding $horizontalPadding;
+}
+
+@media (max-width: 576px) {
+  .container {
+    margin: 0;
+    width: 100%;
+  }
+}

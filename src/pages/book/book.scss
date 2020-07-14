@@ -1,0 +1,17 @@
+@import "../../styles/variables.scss";
+@import "../../styles/colors.scss";
+
+.fontSizeChangeBox {
+  background-color: $whiteBGColor;
+  padding: $verticalPadding/2 $horizontalPadding;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  bottom: 0;
+  input {
+    text-align: center;
+    background-color: #333;
+    margin-left: $horizontalPadding;
+    margin-right: $horizontalPadding;
+  }
+}
